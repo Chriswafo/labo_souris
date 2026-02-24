@@ -17,6 +17,7 @@ public:
     Souris(Souris const& autre):
         poids(autre.poids),couleur(autre.couleur),age(autre.age),esperance_vie(autre.esperance_vie*4/5),clonee(true)
         {cout<<"clonage d'une souris"<<endl;}
+    ~Souris(){cout<<"Fin d'une souris"<<endl;}
 };
 int main (){
 return 0;
