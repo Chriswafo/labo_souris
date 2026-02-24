@@ -27,6 +27,12 @@ public:
       while(age<esperance_vie)
         viellir();
    }
+   void afficher()const {
+         cout<<"une Souris <"<<couleur<<"> ";
+         if(clonee==true)
+            cout<<",clonee,";
+         cout<<" de <"<<age<<"> mois et pesant <"<<poids<<"> grammes"<<endl;
+   }
 };
 int main (){
 return 0;
